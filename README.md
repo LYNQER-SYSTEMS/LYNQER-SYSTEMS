@@ -2,43 +2,68 @@
 
 # ⟁ LYNQER SYSTEMS
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=26&pause=1000&color=FF0000&center=true&vCenter=true&width=680&height=48&lines=Building+HYDRA-SE;seL4+microkernel+OS;amd64+%2B+arm64;Own+the+whole+stack.)](https://lynqer.systems)
+### SYSTEMS ENGINEERING · MICROKERNELS · VIRTUALIZATION
 
-📍 **Switzerland** · [lynqer.systems](https://lynqer.systems)
+[![Animated focus](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1100&color=FF3B3B&center=true&vCenter=true&width=720&height=36&lines=Engineering+HYDRA-SE;Built+on+the+seL4+microkernel;From+bootloader+to+user+experience;Designed+for+amd64+and+arm64)](https://github.com/LYNQER-SYSTEMS)
+
+**Independent systems engineering from Switzerland**
+
+[![Project](https://img.shields.io/badge/PROJECT-HYDRA--SE-ff3030?style=flat-square&labelColor=111111)](https://github.com/LYNQER-SYSTEMS)
+[![Architecture](https://img.shields.io/badge/ARCHITECTURE-seL4-ff3030?style=flat-square&labelColor=111111)](https://sel4.systems/)
+[![Targets](https://img.shields.io/badge/TARGETS-amd64%20%7C%20arm64-ff3030?style=flat-square&labelColor=111111)](https://github.com/LYNQER-SYSTEMS)
 
 </div>
 
-## About
+---
 
-**LYNQER SYSTEMS** develops **HYDRA-SE**, a modular operating system built on the **seL4 microkernel** — from bootloader to interface, with a system stack under our own control.
+## Mission
 
-> seL4 · Linux · Android · libVMM · Live Patching
+**LYNQER SYSTEMS is building HYDRA-SE**, a modular operating system founded on the seL4 microkernel. The goal is to engineer and understand the complete platform—from boot and virtualization through device support to the user interface.
 
-## Focus
+Our work brings together **microkernel systems, virtual machines, hardware enablement, developer tooling, and interface engineering** in one cohesive platform.
 
-- **HYDRA-SE** — seL4 + libVMM · Linux VM · Android VM
-- **Virtualization** — VirtIO · Display · Touch
-- **Tooling** — Flasher · Odin 3/4 · heimdall · build pipelines
-- **Interface** — Liquid Glass · Rust renderer · black / red
+## HYDRA-SE
 
-## Stack
+| Area | Direction |
+|:--|:--|
+| **System foundation** | seL4 microkernel and modular system services |
+| **Virtualization** | libVMM, with Linux and Android guest environments |
+| **Device experience** | VirtIO, display, and touch enablement |
+| **Platform targets** | amd64 and arm64 |
+| **Developer tooling** | Build pipelines and device-flashing tools |
+| **Interface** | Liquid Glass design language and a Rust-based renderer |
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=FF0000)
-![C](https://img.shields.io/badge/C-000000?style=for-the-badge&logo=c&logoColor=FF0000)
-![seL4](https://img.shields.io/badge/seL4-000000?style=for-the-badge&logoColor=FF0000)
-![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=FF0000)
-![PySide6](https://img.shields.io/badge/PySide6-000000?style=for-the-badge&logo=qt&logoColor=FF0000)
-![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=FF0000)
-![QEMU](https://img.shields.io/badge/QEMU-000000?style=for-the-badge&logo=qemu&logoColor=FF0000)
+## Hardware bring-up
 
-## Hardware milestone
+> **Milestone:** seL4 has booted on a Samsung Galaxy Tab A8 powered by the Unisoc T618, reaching the framebuffer with a custom kernel and boot logo.
 
-**seL4 boots on real hardware** — Samsung Galaxy Tab A8 (Unisoc T618) — custom kernel, custom boot logo, framebuffer output.
+## Technology
 
 <div align="center">
 
-**[lynqer.systems](https://lynqer.systems)** · **HYDRA-SE** · **Own the whole stack.**
+[![Rust](https://img.shields.io/badge/Rust-181818?style=for-the-badge&logo=rust&logoColor=CE412B)](https://www.rust-lang.org/)
+[![C](https://img.shields.io/badge/C-181818?style=for-the-badge&logo=c&logoColor=A8B9CC)](https://en.cppreference.com/w/c)
+[![Python](https://img.shields.io/badge/Python-181818?style=for-the-badge&logo=python&logoColor=FFD43B)](https://www.python.org/)
+[![Linux](https://img.shields.io/badge/Linux-181818?style=for-the-badge&logo=linux&logoColor=FCC624)](https://www.kernel.org/)
+[![Qt](https://img.shields.io/badge/Qt%20%2F%20PySide6-181818?style=for-the-badge&logo=qt&logoColor=41CD52)](https://www.qt.io/)
+[![QEMU](https://img.shields.io/badge/QEMU-181818?style=for-the-badge&logo=qemu&logoColor=FF3B3B)](https://www.qemu.org/)
+[![Git](https://img.shields.io/badge/Git-181818?style=for-the-badge&logo=git&logoColor=F05032)](https://git-scm.com/)
 
-<sub>Black · Red · Always.</sub>
+</div>
+
+## Engineering principles
+
+- **Own the whole stack** — learn and shape every layer that matters.
+- **Build on strong foundations** — use seL4 as the foundation for a modular system.
+- **Bring software to real hardware** — validate beyond the emulator.
+- **Make complexity usable** — pair systems engineering with considered tooling and design.
+
+---
+
+<div align="center">
+
+**HYDRA-SE** · **seL4** · **Own the whole stack.**
+
+<sub>Engineered in Switzerland · Black / Red · Systems first</sub>
 
 </div>
