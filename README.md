@@ -33,16 +33,17 @@ Our work brings together **microkernel systems, virtual machines, hardware enabl
 | **Developer tooling** | Build pipelines and device-flashing tools |
 | **Interface** | Liquid Glass design language and a Rust-based renderer |
 
-## Hardware bring-up
+## Hardware Milestone
 
-> **Milestone:** seL4 has booted on a Samsung Galaxy Tab A8 powered by the Unisoc T618, reaching the framebuffer with a custom kernel and boot logo.
+> **seL4 boots on real hardware:** Samsung Galaxy Tab A8 (Unisoc T618), custom kernel, custom boot logo, framebuffer output.
 
-## Technology
+## Stack
 
 <div align="center">
 
 [![Rust](https://img.shields.io/badge/Rust-181818?style=for-the-badge&logo=rust&logoColor=CE412B)](https://www.rust-lang.org/)
 [![C](https://img.shields.io/badge/C-181818?style=for-the-badge&logo=c&logoColor=A8B9CC)](https://en.cppreference.com/w/c)
+[![seL4](https://img.shields.io/badge/seL4-181818?style=for-the-badge&logo=sel4&logoColor=FF3B3B)](https://sel4.systems/)
 [![Python](https://img.shields.io/badge/Python-181818?style=for-the-badge&logo=python&logoColor=FFD43B)](https://www.python.org/)
 [![Linux](https://img.shields.io/badge/Linux-181818?style=for-the-badge&logo=linux&logoColor=FCC624)](https://www.kernel.org/)
 [![Qt](https://img.shields.io/badge/Qt%20%2F%20PySide6-181818?style=for-the-badge&logo=qt&logoColor=41CD52)](https://www.qt.io/)
@@ -62,8 +63,8 @@ Our work brings together **microkernel systems, virtual machines, hardware enabl
 
 <div align="center">
 
-**HYDRA-SE** · **seL4** · **Own the whole stack.**
+**· HYDRA-SE ·**
 
-<sub>Engineered in Switzerland · Black / Red · Systems first</sub>
+<sub>Engineered in Switzerland · Systems first</sub>
 
 </div>
